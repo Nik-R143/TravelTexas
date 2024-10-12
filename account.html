@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Account</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="account">
+	<header>
+		<nav class="navigation">
+	     	<button class="loginPopup">Login</button>
+		</nav>
+	</header>
+
+	<!-- Login Popup-->
+	<div class="wrapper">
+		<span class="icon-close"><ion-icon name="close"></ion-icon></span>
+		<div class="fromBox-login">
+			<h2>Login</h2>
+			<form action="#">
+				<div class="inputBox">
+					<span class="icon"><ion-icon name="mail"></ion-icon></span>
+					 <input type="email" name="" required>
+					 <label>Email</label>
+				</div>
+
+				<div class="inputBox">
+					<span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+					 <input type="password" name="" required>
+					 <label>Password</label>
+				</div>
+
+				<div class="forgot">
+					<a href="#">Forgot Password?</a>
+				</div>
+
+				<button type="submit" class="btn">Login</button>
+
+				<div class="login-register">
+					<p>Don't have an account?<a href="#" class="register-link">Sing Up</a></p>
+				</div>
+			</form>
+		</div>
+	
+	<!-- Registration Popup -->
+		<div class="fromBox-register">
+			<h2>Create Account</h2>
+			<form action="#">
+				<div class="inputBox">
+					<span class="icon"><ion-icon name="person"></ion-icon></span> 
+					<input type="text" name="" required>
+					<label>Username</label>
+				</div>
+
+				<div class="inputBox">
+					<span class="icon"><ion-icon name="call"></ion-icon></span> 
+					<input type="tel" name="" minlength="10" maxlength="12" required >
+					<label>Mobile Number</label>
+				</div>
+
+				<div class="inputBox">
+					<span class="icon"><ion-icon name="mail"></ion-icon></span> 
+					<input type="email" name="" required>
+					<label>Email</label>
+				</div>
+
+				<div class="inputBox">
+					<span class="icon"><ion-icon name="lock-closed"></ion-icon></span> 
+					<input type="password" name="" required>
+					<label>Password</label>
+				</div>
+
+				<div class="forgot">
+					<label><input type="checkbox">I agree to the terms & conditions</label>
+				</div>
+
+				<button type="submit" class="btn"> Sing Up</button>
+
+				<div class="login-register">
+					<p>Already have an account?<a href="#" class="login-link">Login</p>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
