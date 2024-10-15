@@ -128,13 +128,6 @@
     border-bottom-width: thin;
     margin: 5%;
 }
-
-#desti_list{
-    margin-left: 50px;
-}
-*{
-    box-sizing: border-box;
-}
 .gallery {
   border: 2px solid #ccc;
   margin: 5px;
